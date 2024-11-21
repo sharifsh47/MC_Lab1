@@ -5,7 +5,7 @@
 void main(void)
 {
     int i = 0;
-//
+
     // Enable the clock for GPIO ports N , J and F
     SYSCTL_RCGCGPIO_R = 0x00001120;
 
